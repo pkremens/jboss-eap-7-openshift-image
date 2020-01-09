@@ -945,6 +945,10 @@
                                     {
                                         "name": "ENABLE_GENERATE_DEFAULT_DATASOURCE",
                                         "value": "${ENABLE_GENERATE_DEFAULT_DATASOURCE}"
+				    },
+                                    {
+                                        "name": "JBOSS_MODULES_SYSTEM_PKGS_APPEND",
+                                        "value": "com.sun.crypto.provider"
                                     }
                                 ]
                             }
